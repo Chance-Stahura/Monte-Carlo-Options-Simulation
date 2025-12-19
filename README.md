@@ -1,4 +1,4 @@
-# <Monte-Carlo-Options-Simulation>
+ <Monte-Carlo-Options-Simulation>
 
 > A multi-threaded Monte Carlo options simulator that accelerates option pricing by running large-scale randomized payoff simulations in parallel.
 
