@@ -1,6 +1,6 @@
-# <PROJECT_NAME>
+# <Monte-Carlo-Options-Simulation>
 
-> Short one-line description of what this project does.
+> A multi-threaded Monte Carlo options simulator that accelerates option pricing by running large-scale randomized payoff simulations in parallel.
 
 ---
 
