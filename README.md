@@ -1,6 +1,6 @@
- <Monte-Carlo-Options-Simulation>
+ ## Overview
 
-> This project implements a multi-threaded Monte Carlo simulator for pricing European call options. It uses pthreads to distribute simulations across multiple threads and estimates the option price by averaging discounted payoffs under a Geometric Brownian Motion (GBM) model.
+This project implements a multi-threaded Monte Carlo simulator for pricing European call options. It uses pthreads to distribute simulations across multiple threads and estimates the option price by averaging discounted payoffs under a Geometric Brownian Motion (GBM) model.
 
 ---
 
