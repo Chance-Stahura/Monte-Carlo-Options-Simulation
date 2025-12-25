@@ -4,20 +4,42 @@
 
 ---
 
-## Getting Started
+## Build and Run
 
-This repository is intended as a **starter template** for new projects.
+### Requirements
+- GCC or Clang
+- POSIX-compatible system (Linux / macOS)
+- pthreads
 
-### 1. Use this template
-
-Click the **“Use this template”** button (or **“Generate from template”**) in GitHub and create a new repository:
-
-1. Choose an owner (your account or an organization).
-2. Give your new project a name.
-3. Choose visibility (public or private).
-
-### 2. Clone your new project
-
+### Build
 ```bash
-git clone https://github.com/<your-username>/<your-new-repo>.git
-cd <your-new-repo>
+make
+
+---
+
+## Input Parameters
+
+You already prompt the user interactively — explain what those mean:
+
+```md
+## Input Parameters
+
+- **S**: Initial stock price
+- **K**: Strike price
+- **r**: Risk-free interest rate (annualized)
+- **v**: Volatility (annualized)
+- **T**: Time to expiration (in years)
+
+---
+
+## Example
+
+Input:
+- S = 100
+- K = 100
+- r = 0.05
+- v = 0.20
+- T = 1
+
+Final Price: ~10.4
+Results vary slightly due to randomness
